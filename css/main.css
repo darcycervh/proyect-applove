@@ -1,0 +1,149 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+header div:first-child{
+  width: 100%;
+  background: rgb(238, 236, 232);
+  padding-left: 86px;
+  color: #000;
+  font-family: 'Century Gothic';
+  font-weight: bold;
+  font-size: 16px;
+  
+}
+header div:first-child a {
+  /*outline: 1px solid red;*/
+  display: inline-block;
+  margin: 0;;
+  padding-top: 10px;
+  width: 130px;
+  height: 50px;
+  text-align: center;
+  float: left;
+  text-transform: uppercase;
+}
+
+.first{
+  position: relative;
+
+}
+#part1{ 
+  outline: 2px solid blue;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 566px;
+}
+.section1{
+  outline: 1px solid green;
+  width: auto;
+  position: relative;
+  display: inline-block;
+  top:-460px;
+  left: 280px;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #fff; 
+  box-sizing: content-box;
+}
+.section1 h1{
+  font-size: 50px;
+  margin-top: 56px;
+  margin-bottom: 0px;
+  position: static;
+  
+}
+.section1 p{
+  margin-top: 0px;
+  
+}
+.section1 a{
+  /*outline: 1px solid red;*/
+  display: inline-block;
+  margin-top: 36px;
+  background: green;
+  padding: 14px;
+  color: #fff;
+  box-sizing: content-box;
+}
+.section1 a:hover {
+  color: #E95853;
+}
+.section2{
+  background-color: #E95853;
+  /*outline: 1px solid red;*/
+  margin-top: 0;
+  padding: 0;
+  position: relative;
+}
