@@ -195,5 +195,9 @@ header div:first-child a {
   text-transform: uppercase;
 }
 
-
+footer{
+  background: #373b47;
+  color: #fff;
+  padding: 1px;
+}
 
