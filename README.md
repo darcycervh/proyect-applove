@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 ## Proyecto: applove.
 ### Programa: Replicar la web AppLove.
 
@@ -9,4 +8,4 @@ Maquetar una réplica de la página web AppLove.
 
 **Herramientas utilizadas**
 HTML y CSS.
->>>>>>> ef5fe1e14ba9d3c7297079379a48f680ab1f86b2
+
