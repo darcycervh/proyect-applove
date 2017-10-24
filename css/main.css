@@ -112,7 +112,7 @@ header div:first-child a {
   display: block;
   height: 590px;
 }
-.part1 > img{
+.part1  img{
   /*outline: 1px solid green;*/
   display: block;
   position: relative;
@@ -130,14 +130,24 @@ header div:first-child a {
   margin-top: 56px;
   margin-bottom: 0px;
 }
+/*
 .part1 a{
   /*outline: 1px solid red;*/
-  display: inline-block;
+  /*display: inline-block;
   margin-top: 36px;
   background: #2ecc71;
   padding: 14px;
   color: #fff;
   box-sizing: content-box;
+}*/
+#button{
+  margin-top: 36px;
+  background: #2ecc71;
+  padding: 14px;
+  color: #fff;
+  width: 150px;
+  border: none;
+  -webkit-user-select: auto !important;
 }
 .div1{
   /*outline: 2px solid orangered;*/
